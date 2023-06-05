@@ -1,0 +1,9 @@
+dependencies:
+- name: ecatepec
+  repository: file://../ecatepec
+  version: 0.1.0
+- name: kube-prometheus-stack
+  repository: https://prometheus-community.github.io/helm-charts
+  version: 46.6.0
+digest: sha256:d8f348611818d06b096badda2e822e5642bf1dd8a146586965e77b9760c8a203
+generated: "2023-06-05T16:50:16.778715474+02:00"

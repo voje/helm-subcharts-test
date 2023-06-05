@@ -1,0 +1,23 @@
+#
+# amsterdam
+#   chicago
+#     denver
+#   brussels
+#
+
+amsterdam_value_one: "amsterdam value one"
+
+# Must match the chart name in Chart.yaml (not folder name in ./charts)
+brussels:
+  brussels_value_one: "brussels overridden"
+
+chicago:
+  chicago_value_one: "chicago overridden"
+
+  denver:
+    denver_value_one: "denver overridden"
+
+# Helm chart imported via amsterdam's dependencies
+ecatepec:
+  ecatepec_value_one: "ecatepec overridden"
+
